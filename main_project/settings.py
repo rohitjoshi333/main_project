@@ -16,7 +16,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'studybuddy.com',
     'www.studybuddy.com',
-    'studybuddy-temp.onrender.com',
+    'main-project-e18l.onrender.com',
 ]
 
 
