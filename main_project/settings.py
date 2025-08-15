@@ -13,7 +13,11 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'studybuddy.com',
+    'www.studybuddy.com',
+    'studybuddy-temp.onrender.com',
+]
 
 
 # Application definition
