@@ -8,15 +8,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-secret-key')
+SECRET_KEY = "django-insecure-ob1^dvz(rxjel2g9xs+ofv76!bcrl9w_*_uxxyc1domk(b%b^0"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'studybuddy.com',
-    'www.studybuddy.com',
-    'main-project-e18l.onrender.com',
+
 ]
 
 
